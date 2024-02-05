@@ -2125,6 +2125,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
+			/*设置图片不可点击*/
+			/*pointer-events: none;*/
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
@@ -2685,7 +2687,8 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		/*更改右侧部分的间距*/
+		padding: 5em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
