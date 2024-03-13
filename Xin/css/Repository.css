@@ -2685,11 +2685,11 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
-		/*更改右侧部分的间距*/
+		margin-left: 5%;
+		max-width: 80em;
+		/*更改右侧部分的间距 5 4 4 4 */
 		padding: 5em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 10%);
 	}
 
 		#main > section {
@@ -3017,7 +3017,6 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
-
 		/* Footer */
 
 			#footer .copyright li {
@@ -3224,8 +3223,3 @@ input, select, textarea {
 			}
 
 	}
-
-/*设置图像不可选中*/
-.unselectable-image {
-	pointer-events: none;
-}
